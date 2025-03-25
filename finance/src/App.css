@@ -1,0 +1,101 @@
+#container-table,#table,#graphics{
+  display: flex;
+}
+#container-table{
+  width: 1440px;
+  height: 900px;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+#table{
+  width: 604px;
+  height: 816px;
+  border-radius: 50px;
+  padding: 30px;
+  box-shadow: 4px 4px 20px 10px rgba(0, 0, 0, 0.25);
+}
+#table-container{
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+  height: 744px;
+}
+.table-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 38px;
+}
+h2{
+  font-size: 18px;
+}
+.table-box{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 706px;
+  border: 1px solid rgb(99, 99, 99);
+}
+.tabled{
+  width: 100%;
+  height: 25px;
+  border-bottom: 1px solid #696969;
+}
+tr{
+  display: flex;
+  height: 100%;
+}
+th, td{
+  display: flex;
+  align-items: center;
+  border-right: 0.5px solid #696969;
+  padding-left: 10px;
+  font-size: 12px;
+  color: #696969;
+  font-weight: 600;
+  font-family: "Instrument Serif", serif;
+}
+td{
+  padding-left: 5px !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: black !important;
+  font-weight: 500;
+}
+.body-tabled{
+  display: flex;
+  height: 30px;
+}
+.th-1{
+  width: 180px;
+}
+.th-2{
+  width: 135px;
+}
+.th-3{
+  width: 91px;
+}
+.th-4{
+  width: 80px;
+}
+.th-5{
+  width: 44px;
+  border: none;
+}
+
+
+
+#graphics{
+  width: 604px;
+  height: 720px;
+  background-color: rgba(0, 0, 255, 0.336);
+  overflow: hidden;
+}
